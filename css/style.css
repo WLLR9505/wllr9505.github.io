@@ -1,56 +1,29 @@
-@media only screen and ( min-width: 768px) {
-    #formacao {
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 10px;
-    }
-    #nome {
-        font-size: 20px;
-    }
-}
-@media only screen and ( min-width: 1360px) {
-    #formacao {
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 25px;
-    }
-
-    #nome {
-        font-size: 30px;
-    }
-}
-
 body {
     background-color: white;
     margin: 0px;
     font-family: consolas, Liberation Mono, monospace, Courier;
 }
 
-#title, #footer {
+#title, #footer, h3 {
     color: white;
     text-align: center;
     background-color: #16161d;
     padding-top: 5%;
     padding-bottom: 5%;
-    border-bottom: 2%;
     margin: 0px;
     user-select: none;
 }
 
-p {
-    margin-bottom: 0%;
-}
 #footer {
-    padding-top: 5%;
-    padding-bottom: 1%;
+    padding: 15px 32px;
+    margin: 0px;
 }
 
-.icone {
-    font-size: 5rem;
+.icone, i {
+    font-size: 5vw;
 }
 
 a {
-    font-size: 20px;
     text-decoration: none;
     color: white;
 }
@@ -60,17 +33,43 @@ a:hover {
     text-shadow: 1px 0px 0.5px cyan, -1px 0px 0.5px red;
 }
 
-#nome {
+h2 {
     font-weight: bold;
     text-align: center;
     padding-top: 10%;
+    margin-left: 2%;
 }
 
 #formacao {
+    font-size: 15px;
     padding-top: 15%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
+}
+
+h4, article {
+    background-color: #16161d;
+    color: white;
+    margin: .5%;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+h4 {
+    padding: 1%;
+    font-style: normal;
+}
+
+.projetos {
+    padding: 10% 10% 15% 10%;
+}
+
+.links {
+    padding: 15px;
+    text-align: left;
 }
 
 #title {
@@ -81,7 +80,7 @@ a:hover {
 .glitch {
     text-align: center;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     width: 300px;
     text-shadow: 0.5px 0px 0.5px cyan, -0.5px 0px 0.5px red;
 }
@@ -173,5 +172,13 @@ a:hover {
     }
     100% {
         clip: rect(100px, 300px, 6px, 0);
+    }
+}
+
+@media only screen and ( min-width: 900px) {    /*desktop*/
+    #formacao {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 20px;
     }
 }
