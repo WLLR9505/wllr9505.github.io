@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Weuller Jr.</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div id="title">
-            <div class="glitch" data-text="WLLR9505">WEULLER</div>
-        </div>
-        <h2>Weuller Jr. Souza, 21 anos.</h2>
-            <section id="formacao">
+
+<head>
+    <title>Weuller Jr.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+</head>
+
+<body>
+    <div id="title">
+        <div class="glitch" data-text="WLLR9505">WEULLER</div>
+    </div>
+    <h2>Weuller Jr. Souza, 21 anos.</h2>
+    <section id="formacao">
         <p>Formado em Técnico em Informática (ETEC Fernando Prestes 2016).
-        <p>Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
-        </section>
-        <section class="projetos">
-            <h3>Projetos no Github</h3>
-            <article>
-                <h4>validar-js</h4>
-                Simples validador de e-mail usando JavaScript
-                <div class="links">
+            <p>Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
+    </section>
+    <section>
+        <div class="calendar">
+            WLLR9505 on Github
+        </div>
+        <script>
+            GitHubCalendar(".calendar", "WLLR9505", {
+                responsive: true
+            });
+            // @todo Alterar visualização do calendário
+            // @body Exibir o calendário em uma área diferente como a <section class="projetos">
+        </script>
+    </section>
+    <section class="projetos">
+        <h3>Projetos no Github</h3>
+        <article>
+            <h4>validar-js</h4>
+            Simples validador de e-mail usando JavaScript
+            <div class="links">
                 <a href="https://github.com/WLLR9505/validar-js">
-                <i class="octicon octicon-repo"></i></a>
+                    <i class="octicon octicon-repo"></i></a>
                 <a href="https://wllr9505.github.io/validar-js">
-                <i class="octicon octicon-device-desktop"></i></a>
+                    <i class="octicon octicon-device-desktop"></i></a>
             </div>
-            </article>
-            <article>
-                <h4>loader-json</h4>
+        </article>
+        <article>
+            <h4>loader-json</h4>
             Leitura de JSON com JavaScript.
             <div class="links">
                 <a href="https://github.com/WLLR9505/loader-json"><i class="octicon octicon-repo"></i></a>
             </div>
-            </article>
-            <article>
-                <h4>instamage-ig</h4>
+        </article>
+        <article>
+            <h4>instamage-ig</h4>
             A maneira mais simples de conseguir uma foto do Instagram na qualidade que foi postada.
             <div class="links">
                 <a href="https://github.com/WLLR9505/instamage-ig">
-                <i class="octicon octicon-repo"></i></a>
+                    <i class="octicon octicon-repo"></i></a>
                 <a href="https://wllr9505.github.io/instamage-ig">
-                <i class="octicon octicon-device-desktop"></i></a>
+                    <i class="octicon octicon-device-desktop"></i></a>
             </div>
-            </article>
-            <article>
-                <h4>gamepad-js</h4>
+        </article>
+        <article>
+            <h4>gamepad-js</h4>
             Exemplo de uso da Gamepad-API
             <div class="links">
                 <a href="https://github.com/WLLR9505/gamepad-js">
-                <i class="octicon octicon-repo"></i></a>
+                    <i class="octicon octicon-repo"></i></a>
                 <a href="https://wllr9505.github.io/gamepad-js/">
-                <i class="octicon octicon-device-desktop"></i></a>
+                    <i class="octicon octicon-device-desktop"></i></a>
             </div>
-            </article>
-        </section>
-        <div id="footer">
-            <a href="https://github.com/WLLR9505"><i class="icone octicon octicon-mark-github"></i></a>
-            <p><i class="octicon octicon-code"></i> by WLLR9505
-        </div>
-    </body>
+        </article>
+    </section>
+    <div id="footer">
+        <a href="https://github.com/WLLR9505"><i class="icone octicon octicon-mark-github"></i></a>
+        <p><i class="octicon octicon-code"></i> by WLLR9505
+    </div>
+</body>
+
 </html>

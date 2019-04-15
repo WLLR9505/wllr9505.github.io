@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    margin: 0px;
+    margin: 0;
     font-family: consolas, Liberation Mono, monospace, Courier;
 }
 
@@ -10,13 +10,13 @@ body {
     background-color: #16161d;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin: 0px;
+    margin: 0;
     user-select: none;
 }
 
 #footer {
     padding: 15px 32px;
-    margin: 0px;
+    margin: 0;
 }
 
 .icone, i {
@@ -30,7 +30,7 @@ a {
 a:hover {
     transition: 0.2s;
     opacity: 2;
-    text-shadow: 1px 0px 0.5px cyan, -1px 0px 0.5px red;
+    text-shadow: 1px 0 0.5px cyan, -1px 0 0.5px red;
 }
 
 h2 {
@@ -46,6 +46,19 @@ h2 {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
+}
+
+.calendar {
+    font-size: 15px;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    min-height: 0;
+}
+
+.contrib-column.table-column, .float-left {
+    display: none;
 }
 
 h4, article {
@@ -82,7 +95,7 @@ h4 {
     position: relative;
     font-size: 30px;
     width: 300px;
-    text-shadow: 0.5px 0px 0.5px cyan, -0.5px 0px 0.5px red;
+    text-shadow: 0.5px 0 0.5px cyan, -0.5px 0 0.5px red;
 }
 .glitch::before, .glitch::after {
     content: attr(data-text);
@@ -96,14 +109,14 @@ h4 {
     clip: rect(24px, 450px, 56px, 0);
 
     left: 5px;
-    text-shadow: 1px 0px 0.5px red, -1px 0px 0.5px cyan;
+    text-shadow: 1px 0 0.5px red, -1px 0 0.5px cyan;
     background: #16161d;
 
     animation: glitch-animation 3s infinite linear alternate-reverse;
 }
 .glitch::after {
     left: -5px;
-    text-shadow: 1px 0px 0.5px cyan, -1px 0px 0.5px red;
+    text-shadow: 1px 0 0.5px cyan, -1px 0 0.5px red;
     background: #16161d;
 
     animation: glitch-animation 1s infinite linear alternate-reverse;
