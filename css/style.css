@@ -74,14 +74,14 @@ h4 {
 }
 
 .scroll-window {
-    margin: 5% 0;
+    margin: 10% 0;
     /* overflow: auto; */
     overflow-y: scroll;
     height: 500px;
 }
 
 .projetos {
-    padding: 10%;
+    padding: 0 10%;
 }
 
 .links {
