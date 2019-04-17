@@ -42,19 +42,15 @@ h2 {
 
 #formacao {
     font-size: 15px;
-    padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    padding: 15% 10%;
 }
 
 .calendar {
     font-size: 15px;
-    padding-top: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 5%;
+    padding: 5% 15%;
+    margin-top: 10%;
     min-height: 0;
+    filter: hue-rotate(90deg);
 }
 
 .contrib-column.table-column, .float-left {
@@ -73,11 +69,19 @@ h4, article {
 
 h4 {
     padding: 1%;
+    color: rgb(111,192,233);
     font-style: normal;
 }
 
+.scroll-window {
+    margin: 5% 0;
+    /* overflow: auto; */
+    overflow-y: scroll;
+    height: 500px;
+}
+
 .projetos {
-    padding: 10% 10% 15% 10%;
+    padding: 10%;
 }
 
 .links {
