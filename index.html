@@ -20,12 +20,23 @@
                     <h1 id="nick">WLLR9505</h1>
                     <h4 id="name">Weuller Jr. Souza, 22 anos</h4>
                     <ol id="scrollMenu" type="I">
-                        <li onclick="showThis('aboutMe')"><i class="octicon octicon-person"></i></li>
-                        <li onclick="showThis('projects')"><i class="octicon octicon-repo"></i></li>
-                        <li onclick="showThis('Github')"><a href="https://github.com/WLLR9505/">
-                            <i class="octicon octicon-mark-github"></i></a></li>
-                        <li onclick="showThis('Contributions')"><i class="octicon octicon-rocket"></i></a></li>
-                        <li onclick="showThis('curriculum')"><i class="octicon octicon-file"></i></li>
+                        <li id="LIaboutMe" onclick="showThis('aboutMe')"><span class="menuIcon"><i
+                                    class="octicon octicon-person"></i></span><span class="menuText">Sobre</span></li>
+
+                        <li id="LIprojects" onclick="showThis('projects')"><span class="menuIcon"><i
+                                    class="octicon octicon-repo"></i></span><span class="menuText">Projetos</span></li>
+
+                        <li id="LIGithub" onclick="showThis('Github')"><span class="menuIcon"><a href="https://github.com/WLLR9505">
+                                    <i class="octicon octicon-mark-github"></i></a></span></li>
+
+                        <li id="LIContributions" onclick="showThis('Contributions')"><span class="menuIcon"><i
+                                    class="octicon octicon-rocket"></i></span><span
+                                class="menuText">Contribuições</span></li>
+
+                        <li id="LIcurriculum" onclick="showThis('curriculum')"><span class="menuIcon"><i
+                                    class="octicon octicon-file"></i></span><span class="menuText">Curriculum</span>
+                        </li>
+
                     </ol>
                 </span>
             </span>
@@ -37,8 +48,8 @@
 
             <section id="aboutMe">
                 <span class="card">
-                    Formado em Técnico em Informática (ETEC Fernando Prestes 2016).</h3>
-                Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
+                    Formado em Técnico em Informática (ETEC Fernando Prestes 2016).
+                    Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
                 </span>
             </section>
 
@@ -63,7 +74,7 @@
                     <span class="card-links">
                         <a href="https://github.com/WLLR9505/instamage-ig">
                             <i class="octicon octicon-repo"></i></a>
-                            <a href="https://wllr9505.github.io/instamage-ig">
+                        <a href="https://wllr9505.github.io/instamage-ig">
                             <i class="octicon octicon-device-desktop"></i></a>
                     </span>
                 </span>
@@ -74,7 +85,7 @@
                     <span class="card-links">
                         <a href="https://github.com/WLLR9505/validar-js">
                             <i class="octicon octicon-repo"></i></a>
-                            <a href="https://wllr9505.github.io/validar-js">
+                        <a href="https://wllr9505.github.io/validar-js">
                             <i class="octicon octicon-device-desktop"></i></a>
                     </span>
                 </span>
@@ -85,7 +96,7 @@
                     <span class="card-links">
                         <a href="https://github.com/WLLR9505/gamepad-js">
                             <i class="octicon octicon-repo"></i></a>
-                            <a href="https://wllr9505.github.io/gamepad-js/">
+                        <a href="https://wllr9505.github.io/gamepad-js/">
                             <i class="octicon octicon-device-desktop"></i></a>
                     </span>
                 </span>
@@ -98,7 +109,7 @@
                             <i class="octicon octicon-repo"></i></a>
                     </span>
                 </span>
-                
+
                 <span class="card">
                     <span class="card-title">vsco-js</span>
                     <span class="card-description">Scraping usando Nightmare e Cheerio.js</span>

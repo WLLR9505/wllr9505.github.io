@@ -69,6 +69,15 @@ section {
                                     /* smartphone */
 /*-------------------------------------------------------------------------------*/
 @media only screen and (max-device-width: 900px) {
+
+    .menuIcon {
+        display: inline;
+    }
+
+    .menuText {
+        display: none;
+    }
+
     #main {
         display: grid;
         grid-template-rows: 90% 10%;
@@ -131,6 +140,18 @@ section {
 /* --------------------------------------------------------------- */
 /* desktop */
 @media only screen and (min-device-width: 900px) {
+
+    .menuIcon {
+        display: none;
+    }
+
+    .menuText {
+        display: inline;
+    }
+
+    #LIGithub {
+        display: none;
+    }    
 
     #name {
         color: #16161d;
