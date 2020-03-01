@@ -14,26 +14,28 @@
 <body>
     <span id="main">
 
+        <span id="titleBar">Sobre</span>
+
         <span id="profile">
             <span id="profile-card">
                 <span id="menu">
                     <h1 id="nick">WLLR9505</h1>
                     <h4 id="name">Weuller Jr. Souza, 22 anos</h4>
                     <ol id="scrollMenu" type="I">
-                        <li id="LIaboutMe" onclick="showThis('aboutMe')"><span class="menuIcon"><i
+                        <li id="LIaboutMe" onclick="showThis('aboutMe', this)"><span class="menuIcon"><i
                                     class="octicon octicon-person"></i></span><span class="menuText">Sobre</span></li>
 
-                        <li id="LIprojects" onclick="showThis('projects')"><span class="menuIcon"><i
+                        <li id="LIprojects" onclick="showThis('projects', this)"><span class="menuIcon"><i
                                     class="octicon octicon-repo"></i></span><span class="menuText">Projetos</span></li>
 
-                        <li id="LIGithub" onclick="showThis('Github')"><span class="menuIcon"><a href="https://github.com/WLLR9505">
+                        <li id="LIGithub" onclick="showThis('Github', this)"><span class="menuIcon"><a href="https://github.com/WLLR9505">
                                     <i class="octicon octicon-mark-github"></i></a></span></li>
 
-                        <li id="LIContributions" onclick="showThis('Contributions')"><span class="menuIcon"><i
+                        <li id="LIContributions" onclick="showThis('Contributions', this)"><span class="menuIcon"><i
                                     class="octicon octicon-rocket"></i></span><span
                                 class="menuText">Contribuições</span></li>
 
-                        <li id="LIcurriculum" onclick="showThis('curriculum')"><span class="menuIcon"><i
+                        <li id="LIcurriculum" onclick="showThis('curriculum', this)"><span class="menuIcon"><i
                                     class="octicon octicon-file"></i></span><span class="menuText">Curriculum</span>
                         </li>
 
@@ -109,26 +111,7 @@
                             <i class="octicon octicon-repo"></i></a>
                     </span>
                 </span>
-
-                <span class="card">
-                    <span class="card-title">vsco-js</span>
-                    <span class="card-description">Scraping usando Nightmare e Cheerio.js</span>
-                    <span class="card-links">
-                        <a href="https://github.com/WLLR9505/vsco-js">
-                            <i class="octicon octicon-repo"></i></a>
-                    </span>
-                </span>
-
-                <span class="card">
-                    <span class="card-title">vsco-js</span>
-                    <span class="card-description">Scraping usando Nightmare e Cheerio.js</span>
-                    <span class="card-links">
-                        <a href="https://github.com/WLLR9505/vsco-js">
-                            <i class="octicon octicon-repo"></i></a>
-                    </span>
-                </span>
         </span>
-        </section>
     </span>
     <script src="./js/script.js"></script>
 </body>

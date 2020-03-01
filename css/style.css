@@ -42,12 +42,6 @@ section {
     background-color: rgba(255, 255, 255, 0.50);
 }
 
-/* #viewer {
-    background-image: url('../img/bg.jpg');
-    background-position: center;
-    background-size: cover;
-} */
-
 .octicon {
     font-size: 4vh;
 }
@@ -80,10 +74,20 @@ section {
 
     #main {
         display: grid;
-        grid-template-rows: 90% 10%;
-        grid-template-areas: "viewer"
+        grid-template-rows: 10% 80% 10%;
+        grid-template-areas: "titleBar"
+        "viewer"
         "topBar";
         width: 100%;
+        height: 100%;
+    }
+
+    #titleBar {
+        background-color: #16161d;
+        color: white;
+        display: grid;
+        justify-items: center;
+        align-items: center;
         height: 100%;
     }
 
@@ -127,6 +131,17 @@ section {
         overflow: auto;
     }
 
+    .card-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        border: 1px solid;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px #888888;
+    }
+
     li .octicon-mark-github {
         font-size: 5vh;
     }
@@ -141,17 +156,13 @@ section {
 /* desktop */
 @media only screen and (min-device-width: 900px) {
 
-    .menuIcon {
+    .menuIcon, #LIGithub, #titleBar {
         display: none;
     }
 
     .menuText {
         display: inline;
-    }
-
-    #LIGithub {
-        display: none;
-    }    
+    } 
 
     #name {
         color: #16161d;
