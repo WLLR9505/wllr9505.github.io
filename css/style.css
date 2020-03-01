@@ -42,11 +42,11 @@ section {
     background-color: rgba(255, 255, 255, 0.50);
 }
 
-#viewer {
+/* #viewer {
     background-image: url('../img/bg.jpg');
     background-position: center;
     background-size: cover;
-}
+} */
 
 .octicon {
     font-size: 4vh;

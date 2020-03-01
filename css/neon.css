@@ -1,0 +1,33 @@
+#profile {
+    background-color: #240029;}
+
+#menu {
+    border: 1px dashed #fa00c4;
+}
+
+#profile-card {
+    border: 5px solid #a200ff;
+}
+
+#viewer {
+    background-color: #ffc3d7;
+    border-left: dotted 2px #00171a;
+}
+
+li:hover {
+    background-color: #a200ff;
+    color: #ffc3d7;
+}
+
+#nick {
+    color: #ff2090;
+}
+
+#name {
+    color: #240029;
+    background-color: #a200ff;
+}
+
+.card-title {
+    color: #4b0077;
+}
