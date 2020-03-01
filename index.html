@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link href="css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -21,10 +20,12 @@
                     <h1 id="nick">WLLR9505</h1>
                     <h4 id="name">Weuller Jr. Souza, 22 anos</h4>
                     <ol id="scrollMenu" type="I">
-                        <li onclick="showThis('aboutMe')">Sobre</li>
-                        <li onclick="showThis('projects')">Projetos</li>
-                        <li onclick="showThis('Github')">Github</a></li>
-                        <li onclick="showThis('curriculum')">Curriculum</li>
+                        <li onclick="showThis('aboutMe')"><i class="octicon octicon-person"></i></li>
+                        <li onclick="showThis('projects')"><i class="octicon octicon-repo"></i></li>
+                        <li onclick="showThis('Github')"><a href="https://github.com/WLLR9505/">
+                            <i class="octicon octicon-mark-github"></i></a></li>
+                        <li onclick="showThis('Contributions')"><i class="octicon octicon-rocket"></i></a></li>
+                        <li onclick="showThis('curriculum')"><i class="octicon octicon-file"></i></li>
                     </ol>
                 </span>
             </span>
@@ -41,8 +42,8 @@
                 </span>
             </section>
 
-            <section id="Github">
-                <span id="card">
+            <section id="Contributions">
+                <span class="card">
                     <div class="calendar">
                         WLLR9505 on Github
                     </div>
@@ -97,9 +98,28 @@
                             <i class="octicon octicon-repo"></i></a>
                     </span>
                 </span>
+                
+                <span class="card">
+                    <span class="card-title">vsco-js</span>
+                    <span class="card-description">Scraping usando Nightmare e Cheerio.js</span>
+                    <span class="card-links">
+                        <a href="https://github.com/WLLR9505/vsco-js">
+                            <i class="octicon octicon-repo"></i></a>
+                    </span>
+                </span>
+
+                <span class="card">
+                    <span class="card-title">vsco-js</span>
+                    <span class="card-description">Scraping usando Nightmare e Cheerio.js</span>
+                    <span class="card-links">
+                        <a href="https://github.com/WLLR9505/vsco-js">
+                            <i class="octicon octicon-repo"></i></a>
+                    </span>
+                </span>
         </span>
         </section>
     </span>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
