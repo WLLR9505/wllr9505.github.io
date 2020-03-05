@@ -1,0 +1,39 @@
+.calendar {
+    filter: hue-rotate(100deg) saturate(200%);
+}
+
+#profile {
+    background-color: #00171a;
+}
+
+#menu {
+    border-color: #00fabb;
+}
+
+#profile-card {
+    border-color: #00b7ff;
+}
+
+#viewer {
+    background-color: #c3ffff;
+    border-color: #00171a;
+    outline-color: #c3ffff;
+}
+
+li:hover {
+    background-color: #00b7ff;
+    color: white;
+}
+
+#nick {
+    color: #00fabb;
+}
+
+#name {
+    color: #16161d;
+    background-color: #00b7ff;
+}
+
+.card-title {
+    color: #00001f;
+}
