@@ -6,6 +6,8 @@ body {
     user-select: none;
 }
 
+code { font-family: 'Fira Code', monospace; }
+
 a {
     color: inherit;
     text-decoration: inherit;
@@ -22,19 +24,19 @@ section {
 .card-description {
     font-style: italic;
     color: #16161d;
+    padding: 5% 0;
 }
 
 .card-title {
+    text-align: center;
     font-size: 4vh;
     font-weight: bolder;
 }
 
 .card {
-    border: 3px solid black;
     color: black;
     display: grid;
-    height: 50%;
-    width: 50%;
+    width: 85%;
     padding: 5%;
     margin: 5%;
     align-self: center;
@@ -57,12 +59,24 @@ section {
 
 .calendar {
     min-height: 100%;
+    filter: saturate(0%);
 }
 
+.card-description > img {
+    max-width: 100%;
+}
+
+#curriculum > iframe {
+    width: 100%;
+    height: 100%;
+}
 /*-------------------------------------------------------------------------------*/
                                     /* smartphone */
 /*-------------------------------------------------------------------------------*/
 @media only screen and (max-device-width: 900px) {
+    body {
+        font-family: 'Fira Code', monospace;
+    }
 
     .menuIcon {
         display: inline;
@@ -136,12 +150,6 @@ section {
         justify-content: space-evenly;
     }
 
-    .card {
-        border: 1px solid;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px #888888;
-    }
-
     li .octicon-mark-github {
         font-size: 5vh;
     }
@@ -180,7 +188,6 @@ section {
         background-color: black;
         color: white;
         display: grid;
-        border-right: dotted 2px white;
     }
 
     #menu {
@@ -206,7 +213,8 @@ section {
         display: grid;
         justify-items: center;
         overflow: auto;
-        border-left: dotted 2px black;
+        border-left: dashed 1px black;
+        outline: solid white;
     }
 
     li:hover {

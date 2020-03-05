@@ -3,19 +3,18 @@
 
 <head>
     <title>Weuller Jr.</title>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link href="css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
 </head>
 
 <body>
     <span id="main">
 
         <span id="titleBar">Sobre</span>
-
         <span id="profile">
             <span id="profile-card">
                 <span id="menu">
@@ -28,7 +27,8 @@
                         <li id="LIprojects" onclick="showThis('projects', this)"><span class="menuIcon"><i
                                     class="octicon octicon-repo"></i></span><span class="menuText">Projetos</span></li>
 
-                        <li id="LIGithub" onclick="showThis('Github', this)"><span class="menuIcon"><a href="https://github.com/WLLR9505">
+                        <li id="LIGithub" onclick="showThis('Github', this)"><span class="menuIcon"><a
+                                    href="https://github.com/WLLR9505">
                                     <i class="octicon octicon-mark-github"></i></a></span></li>
 
                         <li id="LIContributions" onclick="showThis('Contributions', this)"><span class="menuIcon"><i
@@ -51,7 +51,7 @@
             <section id="aboutMe">
                 <span class="card">
                     Formado em Técnico em Informática (ETEC Fernando Prestes 2016).
-                    Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
+                    <br>Atualmente cursando Análise e Desenvolvimento de Sistemas (FATEC Sorocaba).
                 </span>
             </section>
 
@@ -69,9 +69,38 @@
             </section>
 
             <section id="projects">
+
+                <span class="card">
+                    <span class="card-title">cipher-vgnr</span>
+                    <span class="card-description">
+                        Pacote NPM para criptografia de texto utilizando a Cifra de
+                        Vigenère
+                    </span>
+                    <span class="card-links">
+                        <a href="https://github.com/WLLR9505/cipher-vgnr">
+                            <i class="octicon octicon-repo"></i></a>
+                        <a href="https://www.npmjs.com/package/ciphervgnr">
+                            <i class="octicon octicon-package"></i></a>
+                    </span>
+                </span>
+
+                <span class="card">
+                    <span class="card-title">in2pos</span>
+                    <span class="card-description">Pacote NPM para conversão e cálculo de expressões matemáticas infixas
+                        e posfixas </span>
+                    <span class="card-links">
+                        <a href="https://github.com/WLLR9505/in2pos">
+                            <i class="octicon octicon-repo"></i></a>
+                        <a href="https://www.npmjs.com/package/in2pos">
+                            <i class="octicon octicon-package"></i></a>
+                    </span>
+                </span>
+
                 <span class="card">
                     <span class="card-title">instamage-ig</span>
-                    <span class="card-description">A maneira mais simples de salvar uma foto do Instagram com a
+                    <span class="card-description">
+                        <img src="./img/instamage-ig.png" alt="instamage-ig demo">
+                        A maneira mais simples de salvar uma foto do Instagram com a
                         qualidade que foi postada</span>
                     <span class="card-links">
                         <a href="https://github.com/WLLR9505/instamage-ig">
@@ -81,20 +110,12 @@
                     </span>
                 </span>
 
-                <span class="card">
-                    <span class="card-title">validar-js</span>
-                    <span class="card-description">Um simples validador de e-mail usando JavaScript</span>
-                    <span class="card-links">
-                        <a href="https://github.com/WLLR9505/validar-js">
-                            <i class="octicon octicon-repo"></i></a>
-                        <a href="https://wllr9505.github.io/validar-js">
-                            <i class="octicon octicon-device-desktop"></i></a>
-                    </span>
-                </span>
 
                 <span class="card">
                     <span class="card-title">gamepad-js</span>
-                    <span class="card-description">Exemplo de uso da Gamepad-API</span>
+                    <span class="card-description">
+                        <img src="./img/gamepad-js.gif" alt="gamepad-js demo">
+                        Exemplo de uso da Gamepad-API</span>
                     <span class="card-links">
                         <a href="https://github.com/WLLR9505/gamepad-js">
                             <i class="octicon octicon-repo"></i></a>
@@ -111,9 +132,26 @@
                             <i class="octicon octicon-repo"></i></a>
                     </span>
                 </span>
-        </span>
+
+                <span class="card">
+                    <span class="card-title">region-mca</span>
+                    <span class="card-description">
+                        <img src="./img/region-mca.png" alt="region-mca demo">
+                        Detecte os arquivos r.x.z.mca onde se encontram suas construções.</span>
+                    <span class="card-links">
+                        <a href="https://github.com/WLLR9505/region-mca">
+                            <i class="octicon octicon-repo"></i></a>
+                        <a href="https://wllr9505.github.io/region-js"></a>
+                                <i class="octicon octicon-device-desktop"></i></a>
+                    </span>
+                </span>
+            </section>
+            <section id="curriculum">
+                <iframe src="https://onedrive.live.com/embed?cid=93E735FBC9179638&amp;resid=93E735FBC9179638%2125114&amp;authkey=APZ8kDpIxroPV9E&amp;em=2&amp;wdStartOn=1&amp;wdEmbedCode=0&amp;wdPrint=1" width="476px" height="288px" frameborder="0">Este é um documento do <a target="_blank" href="https://office.com">Microsoft Office</a> incorporado, da plataforma <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+            </section>
+
     </span>
-    <script src="./js/script.js"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>

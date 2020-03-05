@@ -1,19 +1,23 @@
+.calendar {
+    filter:saturate(200%);
+}
+
 #profile {
     background-color: #001a00;
-    border-right: dotted 2px #001a00;
 }
 
 #menu {
-    border: 1px dashed #9afa00;
+    border-color: #b7fa00;
 }
 
 #profile-card {
-    border: 5px solid #33ff00;
+    border-color: #33ff00;
 }
 
 #viewer {
     background-color: #d4ffc3;
-    border-left: dotted 2px #001a00;
+    border-color: #001a00;
+    outline-color: #d4ffc3;
 }
 
 li:hover {
@@ -22,7 +26,7 @@ li:hover {
 }
 
 #nick {
-    color: #affa00;
+    color: #b7fa00;
 }
 
 #name {
@@ -31,5 +35,5 @@ li:hover {
 }
 
 .card-title {
-    color: #008600;
+    color: #002400;
 }

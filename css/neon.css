@@ -1,17 +1,23 @@
+.calendar {
+    filter: hue-rotate(155deg) saturate(200%);
+}
+
 #profile {
-    background-color: #240029;}
+    background-color: #15001a;
+}
 
 #menu {
-    border: 1px dashed #fa00c4;
+    border-color: #fa00c4;
 }
 
 #profile-card {
-    border: 5px solid #a200ff;
+    border-color: #a200ff;
 }
 
 #viewer {
     background-color: #ffc3d7;
-    border-left: dotted 2px #00171a;
+    border-color: #15001a;
+    outline-color: #ffc3d7;
 }
 
 li:hover {
@@ -29,5 +35,5 @@ li:hover {
 }
 
 .card-title {
-    color: #4b0077;
+    color: #220036;
 }
