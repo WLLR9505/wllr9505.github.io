@@ -18,7 +18,7 @@ function showThis(target, el) {
 function theme() {
 
     //---------------3---------------7---------------12---------------18->
-    //--------neon------------BW------------lime------------cyan--------->
+    //--------neon---|--------BW-----|------lime------|------cyan------|->
 
     var hour = new Date();
     hour = hour.getHours();
