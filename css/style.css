@@ -22,6 +22,7 @@ section {
 }
 
 .card-description {
+    display: grid;
     font-style: italic;
     color: #16161d;
     padding: 5% 0;
@@ -48,6 +49,7 @@ section {
 
 .octicon {
     font-size: 4vh;
+    margin-left: 10px;
 }
 
 #Github > .card {
@@ -65,7 +67,7 @@ section {
 }
 
 .card-description > img {
-    display: block;
+    justify-self: center;
     max-width: 100%;
 }
 
@@ -158,7 +160,7 @@ section {
     }
 
     #nick,
-    #name, .card-description, #profile>a, #info {
+    #name, #profile>a, #info {
         display: none;
     }
 }
@@ -242,5 +244,10 @@ section {
         letter-spacing: 9px;
         width: 30%;
         text-align: center;
+    }
+
+    .card-links {
+        display: flex;
+        justify-content: center;
     }
 }
