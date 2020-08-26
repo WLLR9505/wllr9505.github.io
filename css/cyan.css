@@ -38,6 +38,11 @@ li:hover {
     background-color: #00b7ff;
 }
 
+.card {
+    border: 5px solid #c3ffff;
+    outline: 2px solid #ffffff80;
+}
+
 .card-title {
     color: #00001f;
 }
