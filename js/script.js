@@ -49,7 +49,7 @@ function theme() {
     hour = hour.getHours();
     var bgImage = document.getElementById("themeImage")
 
-    if ((hour > 0 && hour < 3) || (hour > 18 && hour < 24)) {
+    if ((hour >= 0 && hour < 3) || (hour >= 18 && hour < 24)) {
         document.write('<link href="css/purple.css" rel="stylesheet" type:"text/css">');
         let n = Math.floor(Math.random() * themes.purple.length);
         bgImage.src = themes.purple[n];
