@@ -88,7 +88,7 @@ section {
         display: inline;
     }
 
-    .menuText {
+    .menuText, #themeImage {
         display: none;
     }
 
@@ -196,6 +196,12 @@ section {
         display: grid;
     }
 
+    #themeImage {
+        max-height: 55%;
+        position: fixed;
+        margin: 12% 0 0 7%;
+    }
+
     #menu {
         height: 200px;
         width: 200px;
@@ -212,6 +218,7 @@ section {
         padding: 25px;
         align-self: center;
         justify-self: center;
+        z-index: 1;
     }
 
     #viewer {
