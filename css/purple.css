@@ -1,6 +1,7 @@
 :root {
     --bg: #15001a;
-    --sat1: #fa00c4
+    --sat1: #fa00c4;
+    --sat2: #a200ff;
 }
 
 .calendar {
@@ -20,7 +21,7 @@
 }
 
 #profile-card {
-    border-color: #a200ff;
+    border-color: var(--sat2);
 }
 
 #viewer {
@@ -30,7 +31,7 @@
 }
 
 li:hover {
-    background-color: #a200ff;
+    background-color: var(--sat2);
     color: #ffc3d7;
 }
 
@@ -40,7 +41,7 @@ li:hover {
 
 #name {
     color: #240029;
-    background-color: #a200ff;
+    background-color: var(--sat2);
 }
 
 .card {

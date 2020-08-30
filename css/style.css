@@ -258,4 +258,35 @@ section {
         display: flex;
         justify-content: center;
     }
+
+    @keyframes pulse {
+        0% {
+            border-style: solid;
+            box-shadow: 0 0 100px var(--sat1)
+        }
+        5% {
+            border-style: dashed;
+            box-shadow: 0 0 0px var(--sat1)
+        }
+        10% {
+            border-style: solid;
+            box-shadow: 0 0 80px var(--sat1)
+        }
+        50% {
+            border-style: solid;
+            box-shadow: 0 0 90px var(--sat1)
+        }
+        55% {
+            border-style: dashed;
+            box-shadow: 0 0 0px var(--sat1)
+        }
+        60% {
+            border-style: solid;
+            box-shadow: 0 0 90px var(--sat1)
+        }
+        100% {
+            border-style: solid;
+            box-shadow: 0 0 100px var(--sat1)
+        }
+    }
 }

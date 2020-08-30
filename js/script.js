@@ -80,19 +80,21 @@ function theme() {
 function events() {
     var profile = document.getElementById('profile')
     var profileMenu = document.getElementById('menu')
+    var profileCard = document.getElementById('profile-card')
     var bgImage = document.getElementById("themeImage")
 
     profile.addEventListener('mouseover', () => {
         profileMenu.style.backgroundColor = 'var(--bg)'
         bgImage.style.transition = profileMenu.style.transition = '0.5s'
         profileMenu.style.borderStyle = 'solid'
-        profileMenu.style.boxShadow = '0 0 100px var(--sat1)'
+        profileMenu.style.animation = '1s pulse .5s infinite alternate'
+        profileCard.style.boxShadow = '0 0 100px var(--sat2), inset 0 0 100px var(--sat2)'
         bgImage.style.mixBlendMode = 'screen'
         
     })
     profile.addEventListener('mouseout', () => {
         profileMenu.style.backgroundColor = 'transparent'
-        profileMenu.style.boxShadow = 'none'
+        profileMenu.style.boxShadow = profileMenu.style.animation = profileCard.style.boxShadow = 'none'
         profileMenu.style.borderStyle = 'dashed'
         bgImage.style.opacity = '100%'
         bgImage.style.mixBlendMode = 'initial'
@@ -100,6 +102,14 @@ function events() {
     })
 }
 
-theme();
-events()
+function main() {
+    theme();
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width
+
+    if (width > 900) {
+        events();
+    }
+}
+
+main()
 
